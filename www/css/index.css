@@ -27,7 +27,7 @@ body {
     background-color:#E4E4E4;
     background-image: "/res/screen/paige/iphone_landscape_2x.png";
     background-repeat:no-repeat;
-    background-size:100%;
+    background-width: 100%;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
