@@ -21,17 +21,18 @@
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
+    <preference name="stay-in-webview" value="true" />
 
     <icon src="icon.png" />
     <preference name="webviewbounce" value="false" />
     <preference name="detect-data-types" value="false" />
     <preference name="prerendered-icon" value="true" />
 
+    <gap:splash src="res/screen/paige/iphone-portrait-2x.png" />
     <gap:splash src="res/screen/paige/iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/paige/iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/paige/ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/paige/ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
 
-    <access origin="http://www.whichbus.org" subdomains="true" />
-    <access origin="http://whichbus.uservoice.com" browserOnly="true" />
+    
 </widget>
