@@ -31,6 +31,7 @@
     <gap:splash src="res/screen/ios/iphone_portrait_2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/ipad_portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/ipad_landscape.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="res/screen/ios/iphone5_portrait.png"     gap:platform="ios"     width="640" height="1136" />
 
     
 </widget>
