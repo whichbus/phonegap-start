@@ -18,7 +18,7 @@
 
     <preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="portrait" />
-    <preference name="target-device"    value="universal" />
+    <preference name="target-device"    value="handset" />
     <preference name="fullscreen"       value="false" />
     <preference name="stay-in-webview" value="true" />
 
@@ -32,6 +32,9 @@
     <gap:splash src="res/screen/ios/ipad_portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/ipad_landscape.png"     gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/ios/iphone5_portrait.png"     gap:platform="ios"     width="640" height="1136" />
-
+    <gap:splash src="res/screen/android/android-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/android-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/android-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/android-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
     
 </widget>
