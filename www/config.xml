@@ -27,11 +27,10 @@
     <preference name="detect-data-types" value="false" />
     <preference name="prerendered-icon" value="true" />
 
-    <gap:splash src="res/screen/paige/iphone-portrait-2x.png" />
-    <gap:splash src="res/screen/paige/iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
-    <gap:splash src="res/screen/paige/iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
-    <gap:splash src="res/screen/paige/ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
-    <gap:splash src="res/screen/paige/ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
-
+    <gap:splash src="res/screen/ios/iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="res/screen/ios/ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="res/screen/ios/ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="res/screen/ios/iphone-portrait-2x.png" gap:platform="ios" />
     
 </widget>
