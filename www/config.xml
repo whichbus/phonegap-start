@@ -14,7 +14,6 @@
     </author>
 
     <feature name="http://api.phonegap.com/1.0/device" />
-    <preference name="orientation" value="portrait" />
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
 
     <preference name="phonegap-version" value="2.1.0" />
