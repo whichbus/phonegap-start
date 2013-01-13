@@ -24,6 +24,7 @@
     <preference name="webviewbounce" value="false" />
     <preference name="stay-in-webview" value="true" />
     <preference name="detect-data-types" value="false" />
+    <preference name="prerendered-icon" value="true" />
 
     <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
     <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
