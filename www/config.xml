@@ -20,7 +20,7 @@
     <access origin="http://twitter.com" browserOnly="true" />
     <access origin="http://tumblr.com" browserOnly="true" />
     <access origin="http://eepurl.com/" browserOnly="true" />
-    <access origin="http://whichbus.uservoice.com/" browserOnly="true" />
+    <access origin="http://uservoice.com/" browserOnly="true" />
 
     <preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="portrait" />
