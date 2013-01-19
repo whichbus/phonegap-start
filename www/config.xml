@@ -22,6 +22,9 @@
     <preference name="fullscreen"       value="false" />
     <preference name="stay-in-webview" value="true" />
 
+    <access origin="http://whichbus.org" subdomains="true" />
+    <access origin="http://facebook.com" subdomains="true" browserOnly="true"/>
+
     <icon src="res/icon/ios/icon_54x54.png"            gap:platform="ios"        width="57" height="57" />
     <icon src="res/icon/ios/icon_72x72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="res/icon/ios/icon_114x114.png"         gap:platform="ios"        width="114" height="114" />
