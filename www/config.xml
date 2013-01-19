@@ -16,17 +16,14 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
 
-    <access origin="http://facebook.com" browserOnly="true" />
-    <access origin="http://twitter.com" browserOnly="true" />
-    <access origin="http://tumblr.com" browserOnly="true" />
-    <access origin="http://eepurl.com/" browserOnly="true" />
-    <access origin="http://uservoice.com/" browserOnly="true" />
+    <access origin="http://whichbus.org/" browserOnly="false" />
+    <access origin="http://www.whichbus.org/" browserOnly="false" />
 
     <preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="handset" />
     <preference name="fullscreen"       value="false" />
-    <preference name="stay-in-webview" value="true" />
+    <preference name="stay-in-webview" value="false" />
 
     <icon src="res/icon/ios/icon_54x54.png"            gap:platform="ios"        width="57" height="57" />
     <icon src="res/icon/ios/icon_72x72.png"            gap:platform="ios"        width="72" height="72" />
