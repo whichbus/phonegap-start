@@ -20,15 +20,7 @@
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="handset" />
     <preference name="fullscreen"       value="false" />
-
-    <access origin="http://www.whichbus.org" browserOnly="false" subdomains="true" />
-    <access origin="http://www.onebusaway.org" browserOnly="false" subdomains="true" />
-    <access origin="http://maps.googleapis.com" browserOnly="false" subdomains="true" />
-    <access origin="http://www.google-analytics.com" browserOnly="false" subdomains="true" />
-    <access origin="http://maps.gstatic.com/" browserOnly="false" subdomains="true" />
-    <access origin="http://cloudfront.net/" browserOnly="false" subdomains="true" />
-    <access origin="http://beacon-1.newrelic.com" browserOnly="false" subdomains="true" />
-
+    <preference name="stay-in-webview" value="true" />
 
     <access origin="https://www.facebook.com/whichbus" browserOnly="true" />
     <access origin="https://twitter.com/whichbus" browserOnly="true" />
