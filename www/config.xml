@@ -23,6 +23,10 @@
 
     <access origin="http://www.whichbus.org" browserOnly="false" />
     <access origin="http://whichbus.org" browserOnly="false" />
+    <access origin="http://*.whichbus.org" browserOnly="false" />
+    <access origin="http://onebusaway.org" browserOnly="false" />
+    <access origin="http://*.googleapis.com" browserOnly="false" />
+    <access origin="http://*.google-analytics.com" browserOnly="false" />
     <access origin="https://www.facebook.com/whichbus" browserOnly="true" />
     <access origin="https://twitter.com/whichbus" browserOnly="true" />
     <access origin="http://whichbus.tumblr.com/" browserOnly="true" />
