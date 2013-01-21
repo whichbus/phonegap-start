@@ -22,10 +22,9 @@
     <preference name="fullscreen"       value="false" />
 
     <access origin="http://www.whichbus.org" browserOnly="false" subdomains="true" />
-    <access origin="http://whichbus.org" browserOnly="false" subdomains="true" />
-    <access origin="http://onebusaway.org" browserOnly="false" subdomains="true" />
-    <access origin="http://googleapis.com" browserOnly="false" subdomains="true" />
-    <access origin="http://google-analytics.com" browserOnly="false" subdomains="true" />
+    <access origin="http://www.onebusaway.org" browserOnly="false" subdomains="true" />
+    <access origin="http://www.googleapis.com" browserOnly="false" subdomains="true" />
+    <access origin="http://www.google-analytics.com" browserOnly="false" subdomains="true" />
     <access origin="https://www.facebook.com/whichbus" browserOnly="true" />
     <access origin="https://twitter.com/whichbus" browserOnly="true" />
     <access origin="http://whichbus.tumblr.com/" browserOnly="true" />
