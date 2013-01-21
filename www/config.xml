@@ -23,15 +23,19 @@
 
     <access origin="http://www.whichbus.org" browserOnly="false" subdomains="true" />
     <access origin="http://www.onebusaway.org" browserOnly="false" subdomains="true" />
-    <access origin="http://www.googleapis.com" browserOnly="false" subdomains="true" />
+    <access origin="http://maps.googleapis.com" browserOnly="false" subdomains="true" />
     <access origin="http://www.google-analytics.com" browserOnly="false" subdomains="true" />
+    <access origin="http://maps.gstatic.com/" browserOnly="false" subdomains="true" />
+    <access origin="http://cloudfront.net/" browserOnly="false" subdomains="true" />
+    <access origin="http://beacon-1.newrelic.com" browserOnly="false" subdomains="true" />
+
+
     <access origin="https://www.facebook.com/whichbus" browserOnly="true" />
     <access origin="https://twitter.com/whichbus" browserOnly="true" />
     <access origin="http://whichbus.tumblr.com/" browserOnly="true" />
     <access origin="http://eepurl.com/kdy2v" browserOnly="true" />
     <access origin="http://whichb.us2.list-manage.com/" browserOnly="true" />
     <access origin="http://whichbus.uservoice.com/" browserOnly="true" />
-
 
 
     <icon src="res/icon/ios/icon_54x54.png"            gap:platform="ios"        width="57" height="57" />
