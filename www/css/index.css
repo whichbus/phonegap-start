@@ -16,6 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,600,700|Pacifico);
+
 * {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
@@ -68,31 +71,44 @@ body {
     padding-top: 10%;
 }
 
+.row-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%
+    font-family: "Pacifico",sans-serif;
+    line-height: 2rem;
+    font-weight: normal;
+}
+
 .btn {
-padding-top: 10%;
-margin: center;
-display: inline-block;
-padding: 4px 14px;
-margin-bottom: 0;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-font-weight: bold;
-border: 1px solid #5e9b99;
-text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-color: #fff;
-text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-background-color: #81bbb9;
-background-image: -moz-linear-gradient(top, #93d2d0, #679a98);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#93d2d0), to(#679a98));
-background-image: -webkit-linear-gradient(top, #93d2d0, #679a98);
-background-image: -o-linear-gradient(top, #93d2d0, #679a98);
-background-image: linear-gradient(to bottom, #93d2d0, #679a98);
-background-repeat: repeat-x;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF93D2D0', endColorstr='#FF679A98', GradientType=0);
-border-color: #679a98 #679a98 #486c6b;
-border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) fadein(rgba(0,0,0,0.1), 15%);
-background-color: #659795;
+    display: inline-block;
+    padding: 4px 14px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #5e9b99;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #81bbb9;
+    background-image: -moz-linear-gradient(top, #93d2d0, #679a98);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#93d2d0), to(#679a98));
+    background-image: -webkit-linear-gradient(top, #93d2d0, #679a98);
+    background-image: -o-linear-gradient(top, #93d2d0, #679a98);
+    background-image: linear-gradient(to bottom, #93d2d0, #679a98);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF93D2D0', endColorstr='#FF679A98', GradientType=0);
+    border-color: #679a98 #679a98 #486c6b;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) fadein(rgba(0,0,0,0.1), 15%);
+    background-color: #659795;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    font-family: "Open Sans",sans-serif;
 }
 
 
