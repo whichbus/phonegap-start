@@ -28,12 +28,9 @@
     <body>
         <script type="text/javascript">
 
-            if (!navigator.onLine) {
-                alert('offline');
+            if (navigator.onLine) {
+                window.location = "http://www.whichbus.org" 
             }
-
-            window.location = "http://www.whichbus.org" 
-
             
         </script>
         <script type="text/javascript" src="phonegap.js"></script>
@@ -41,5 +38,10 @@
         <script type="text/javascript">
             app.initialize();
         </script>
+
+        <a href="javascript:history.go(0)">
+        <img src="images/errorscreen.png" alt="Offline" />
+        </a>
+
     </body>
 </html>
