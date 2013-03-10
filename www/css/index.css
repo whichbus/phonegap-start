@@ -25,7 +25,7 @@
 
 body {
     background-color:#E4E4E4;
-    background-image: "/img/bakground-stripes.png";
+    background-image: "img/bakground-stripes.png";
     background-repeat:repeat;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
@@ -39,7 +39,7 @@ body {
 
 /* Portrait layout (default) */
 .app {
-    background-image: "/img/bakground-stripes.png";
+    background-image: "img/bakground-stripes.png";
     background-repeat:repeat;
     position:absolute;             /* position in the center of the screen */
     left:50%;
