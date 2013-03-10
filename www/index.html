@@ -28,7 +28,9 @@
     <body>
         <script type="text/javascript">
 
-            
+            if (!navigator.onLine) {
+                alert('offline');
+            }
 
             window.location = "http://www.whichbus.org" 
 
