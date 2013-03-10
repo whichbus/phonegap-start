@@ -17,7 +17,14 @@
  * under the License.
  */
 
- /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,600,700|Pacifico);*/
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,600,700|Pacifico);
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('res/font/OpenSans-Regular.ttf');
+    src: local('Open Sans Regular'), local('Open Sans'), url('res/font/OpenSans-Regular.ttf') format('truetype');
+}
 
 * {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
@@ -80,7 +87,7 @@ body {
 }
 
 .errortext{
-    font-family: "Helvetica";
+    font-family: "Open Sans", "Helvetica";
     font-style: italic;
     font-weight: normal;
     text-align:center;
@@ -94,6 +101,7 @@ body {
 
 
 .btn {
+    font-family: "Open Sans",sans-serif;
     display: inline-block;
     padding: 12px 25px;
     margin-bottom: 0;
@@ -119,7 +127,6 @@ body {
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
-    font-family: "Open Sans",sans-serif;
     margin-left: auto;
     margin-right: auto;
     display: block;
