@@ -26,32 +26,34 @@
         <title>WhichBus</title>
     </head>
     <body>
+        
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
+            app.initialize();
 
-        var img = document.createElement("image/errorscreen.png");
-        img.src = src;
-        img.width = width;
-        img.height = height;
-        img.alt = alt;
+
+            var img = document.createElement("image/errorscreen.png");
+            img.src = src;
+            img.width = width;
+            img.height = height;
+            img.alt = alt;
 
             $.ajax({
                type: "GET",
                url: "http://www.whichbus.org",
                success: function(msg){
-                 window.location = "http://www.whichbus.org"   
+                    alert('success');
+                    window.location = "http://www.whichbus.org"   
                }
                error: function(XMLHttpRequest, textStatus, errorThrown) {
                    if(textStatus == 'timeout') {
+                        alert('Connection seems dead!');
                         document.body.appendChild(img);
+                        
                    }
                }
              });
-            
-        </script>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
         </script>
     </body>
 </html>
