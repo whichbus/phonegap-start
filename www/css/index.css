@@ -64,45 +64,39 @@ body {
 }
 .errorimg{
     width: 90%; 
-    margin-left:auto;
-    margin-right:auto;
+    margin: center;
     padding-top: 10%;
 }
 
 .btn {
-padding-top: 5%;
-margin-left:auto;
-margin-right:auto;
+padding-top: 10%;
+margin: center;
 display: inline-block;
 padding: 4px 14px;
 margin-bottom: 0;
 font-size: 14px;
 line-height: 20px;
 text-align: center;
-vertical-align: middle;
-cursor: pointer;
-color: #333;
-text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-background-color: #f5f5f5;
-background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e6e6e6));
-background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
-background-image: -o-linear-gradient(top, #fff, #e6e6e6);
-background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+font-weight: bold;
+border: 1px solid #5e9b99;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+background-color: #81bbb9;
+background-image: -moz-linear-gradient(top, #93d2d0, #679a98);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#93d2d0), to(#679a98));
+background-image: -webkit-linear-gradient(top, #93d2d0, #679a98);
+background-image: -o-linear-gradient(top, #93d2d0, #679a98);
+background-image: linear-gradient(to bottom, #93d2d0, #679a98);
 background-repeat: repeat-x;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6', GradientType=0);
-border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF93D2D0', endColorstr='#FF679A98', GradientType=0);
+border-color: #679a98 #679a98 #486c6b;
 border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) fadein(rgba(0,0,0,0.1), 15%);
-filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-border: 1px solid #bbb;
-border-bottom-color: #a2a2a2;
--webkit-border-radius: 4px;
--moz-border-radius: 4px;
-border-radius: 4px;
--webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
--moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+background-color: #659795;
 }
+
+
+
 
 h1 {
     font-size:24px;
