@@ -20,7 +20,7 @@
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="handset" />
     <preference name="fullscreen"       value="false" />
-    <preference name="stay-in-webview" value="true" />
+    
 
     <access origin="https://www.facebook.com/whichbus" browserOnly="true" />
     <access origin="https://twitter.com/whichbus" browserOnly="true" />
